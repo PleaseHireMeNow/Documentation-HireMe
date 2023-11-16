@@ -5,14 +5,7 @@
 ### GET: 
 
 **Send:** 
-
-```JSON
-{
-    "userid": "string",
-    "question-id": "string"
-
-}
-```
+/api/answer-history/userid
 
 **Receive:** status: 200
 
@@ -40,7 +33,7 @@
 ### POST:
 
 **Send:**
-
+/api/answer-history/userid
 ```JSON
 {
     {
@@ -71,14 +64,7 @@
 ### DELETE: get all user specific data
 
 **Send:**
-
-```JSON
-{
-    "userid": "string",
-    "question-id": "string"
-
-}
-```
+/api/answer-history/userid/question-id
 
 **Receive:** status: 200
 
