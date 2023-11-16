@@ -22,10 +22,10 @@
     {
       "question-id": "string",
       "question-content": {
-        "text": "string",
-        "answers": [
+        "prompt": "string",
+        "responses": [
           {
-            "answer-content": {
+            "response-content": {
               "text": "string"
             },
             "is-correct": "boolean"
@@ -36,7 +36,19 @@
   ],
   "userAnswer": [
     {
-      "answer-content": {
+      "question-id": "string",
+      "question-content": {
+        "prompt": "string",
+        "responses": [
+          {
+            "response-content": {
+              "text": "string"
+            },
+            "is-correct": "boolean"
+          }
+        ]
+      },
+      "response-content": {
         "text": "string"
       },
       "is-correct": "boolean"
@@ -47,50 +59,11 @@
 ---
 
 ### POST: get all user specific data
+unneeded
 
-**Send:** 
-```JSON
-{
-
-}
-```
-
-**Receive:** status: 200
-```JSON
-{
-  
-}
-```
 
 ### PUT: get all user specific data
-
-**Send:** 
-```JSON
-{
-  
-}
-```
-
-**Receive:** status: 200
-```JSON
-{
-  
-}
-```
+unneeded
 
 ### DELETE: get all user specific data
-
-**Send:** 
-```JSON
-{
-  
-}
-```
-
-**Receive:** status: 200
-```JSON
-{
-  
-}
-```
-
+unneeded

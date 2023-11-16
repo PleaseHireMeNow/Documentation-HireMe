@@ -3,41 +3,41 @@
 
 ### GET: 
 **Send:** 
-```JSON
-{
-
-}
-```
+/api/stack-selection/userid
 
 **Receive:** status: 200
 ```JSON
 {
-  
+  [
+    "string"
+  ]
 }
 ```
 
 ### POST: 
 
 **Send:** 
+/api/stack/selection/userid
 ```JSON
 {
-
+    [
+        "string"
+    ]
 }
 ```
 
 **Receive:** status: 200
-```JSON
-{
-  
-}
-```
+
 
 ### PUT: get all user specific data
 
 **Send:** 
+/api/stack/selection/userid
 ```JSON
 {
-  
+    [
+        "string"
+    ]
 }
 ```
 
@@ -51,15 +51,7 @@
 ### DELETE: get all user specific data
 
 **Send:** 
-```JSON
-{
-  
-}
-```
+/api/stack-selection/userid
+
 
 **Receive:** status: 200
-```JSON
-{
-  
-}
-```
