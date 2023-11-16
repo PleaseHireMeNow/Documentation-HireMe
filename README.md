@@ -13,3 +13,5 @@ API call send/receive data structures
 - [Stack-API](/API%20calls/stack-API.md)
 - [Selected-Stack-API](/API%20calls/stack-selection-API.md)
 - [User-API](/API%20calls/user-API.md)
+- [Login-API](/API%20calls/login-API.md) (incomplete)
+- [Register-API](/API%20calls/register-API.md) (incomplete)
