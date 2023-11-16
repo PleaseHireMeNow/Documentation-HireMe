@@ -3,63 +3,37 @@
 
 ### GET: 
 **Send:** 
-```JSON
-{
-
-}
-```
+/api/questions/userid
 
 **Receive:** status: 200
+
 ```JSON
 {
-  
+    [
+        {
+            "question-id": "string",
+            "question-content": {
+                "text": "string",
+                "answers": [
+                    {
+                        "answer-content": {
+                            "text": "string"
+                        },
+                        "is-correct": "boolean"
+                    }
+                ]
+            }
+        }
+    ]
 }
 ```
+
 
 ### POST: 
-
-**Send:** 
-```JSON
-{
-
-}
-```
-
-**Receive:** status: 200
-```JSON
-{
-  
-}
-```
+unneeded
 
 ### PUT: get all user specific data
-
-**Send:** 
-```JSON
-{
-  
-}
-```
-
-**Receive:** status: 200
-```JSON
-{
-  
-}
-```
+unneeded
 
 ### DELETE: get all user specific data
-
-**Send:** 
-```JSON
-{
-  
-}
-```
-
-**Receive:** status: 200
-```JSON
-{
-  
-}
-```
+unneeded
