@@ -6,63 +6,25 @@ get a current list of technologies and roles/difficulty levels
 
 ### GET: 
 **Send:** 
-```JSON
-{
-
-}
-```
+/api/stack/userid
 
 **Receive:** status: 200
 ```JSON
 {
-  
+  [
+    {
+        "name": "string",
+        "icon-path": "string"
+    }
+  ]
 }
 ```
 
 ### POST: 
-
-**Send:** 
-```JSON
-{
-
-}
-```
-
-**Receive:** status: 200
-```JSON
-{
-  
-}
-```
+unneeded
 
 ### PUT: get all user specific data
-
-**Send:** 
-```JSON
-{
-  
-}
-```
-
-**Receive:** status: 200
-```JSON
-{
-  
-}
-```
+unneeded
 
 ### DELETE: get all user specific data
-
-**Send:** 
-```JSON
-{
-  
-}
-```
-
-**Receive:** status: 200
-```JSON
-{
-  
-}
-```
+unneeded
