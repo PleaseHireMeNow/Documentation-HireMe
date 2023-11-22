@@ -32,8 +32,8 @@
 ### POST: 
 unneeded
 
-### PUT: get all user specific data
+### PUT:
 unneeded
 
-### DELETE: get all user specific data
+### DELETE:
 unneeded

@@ -29,7 +29,7 @@
 **Receive:** status: 200
 
 
-### PUT: get all user specific data
+### PUT:
 
 **Send:** 
 /api/stack/selection/userid
@@ -48,7 +48,7 @@
 }
 ```
 
-### DELETE: get all user specific data
+### DELETE: 
 
 **Send:** 
 /api/stack-selection/userid

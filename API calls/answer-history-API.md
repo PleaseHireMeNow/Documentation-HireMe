@@ -2,9 +2,9 @@
 
 <!-- ! ADD ROUTE DESCRIPTION HERE -->
 
-### GET: 
+### GET:
 
-**Send:** 
+**Send:**
 /api/answer-history/userid
 
 **Receive:** status: 200
@@ -34,6 +34,7 @@
 
 **Send:**
 /api/answer-history/userid
+
 ```JSON
 {
     {
@@ -57,9 +58,7 @@
 
 **Receive:** status: 200
 
-
 ### PUT: not needed
-
 
 ### DELETE: get all user specific data
 
