@@ -60,7 +60,7 @@
 
 ### PUT: not needed
 
-### DELETE: get all user specific data
+### DELETE: 
 
 **Send:**
 /api/answer-history/userid/question-id
