@@ -1,11 +1,11 @@
-# **/api/answer-history**
+# **/api/answerHistory**
 
 <!-- ! ADD ROUTE DESCRIPTION HERE -->
 
 ### GET:
 
 **Send:**
-/api/answer-history/userid
+/api/answerHistory/userid
 
 **Receive:** status: 200
 
@@ -33,7 +33,7 @@
 ### POST:
 
 **Send:**
-/api/answer-history/userid
+/api/answerHistory/userid
 
 ```JSON
 {
@@ -63,7 +63,7 @@
 ### DELETE: 
 
 **Send:**
-/api/answer-history/userid/question-id
+/api/answerHistory/userid/question-id
 
 **Receive:** status: 200
 

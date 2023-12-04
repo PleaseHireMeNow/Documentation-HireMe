@@ -1,4 +1,4 @@
-# **/api/stack**
+# **/api/stackOptions**
 <!-- ! ADD ROUTE DESCRIPTION HERE -->
 get a current list of technologies and roles/difficulty levels
 
@@ -6,7 +6,7 @@ get a current list of technologies and roles/difficulty levels
 
 ### GET: 
 **Send:** 
-/api/stack/options/userid
+/api/stackOptions/userid
 
 **Receive:** status: 200
 ```JSON
