@@ -10,24 +10,22 @@
 **Receive:** status: 200
 
 ```JSON
-{
-    [
+[
+  {
+    "question-id": "string",
+    "question-content": {
+      "text": "string",
+      "answers": [
         {
-            "question-id": "string",
-            "question-content": {
-                "text": "string",
-                "answers": [
-                    {
-                        "answer-content": {
-                            "text": "string"
-                        },
-                        "is-correct": "boolean"
-                    }
-                ]
-            }
+          "answer-content": {
+            "text": "string"
+          },
+          "is-correct": "boolean"
         }
-    ]
-}
+      ]
+    }
+  }
+]
 ```
 
 ### POST:
@@ -37,22 +35,20 @@
 
 ```JSON
 {
-    {
-        "question-id": "string",
-        "question-content": {
-            "text": "string",
-            "answers": [
-                {
-                    "answer-content": {
-                        "text": "string"
-                    },
-                    "is-correct": "boolean"
-                }
-            ]
+  "question-id": "string",
+  "question-content": {
+    "text": "string",
+    "answers": [
+      {
+        "answer-content": {
+          "text": "string"
         },
-        "usefulness": "number",
-        "accuracy": "number"
-    }
+        "is-correct": "boolean"
+      }
+    ]
+  },
+  "usefulness": "number",
+  "accuracy": "number"
 }
 ```
 
@@ -60,7 +56,7 @@
 
 ### PUT: not needed
 
-### DELETE: 
+### DELETE:
 
 **Send:**
 /api/answerHistory/userid/question-id
@@ -68,22 +64,20 @@
 **Receive:** status: 200
 
 ```JSON
-{
-    [
+[
+  {
+    "question-id": "string",
+    "question-content": {
+      "text": "string",
+      "answers": [
         {
-            "question-id": "string",
-            "question-content": {
-                "text": "string",
-                "answers": [
-                    {
-                        "answer-content": {
-                            "text": "string"
-                        },
-                        "is-correct": "boolean"
-                    }
-                ]
-            }
+          "answer-content": {
+            "text": "string"
+          },
+          "is-correct": "boolean"
         }
-    ]
-}
+      ]
+    }
+  }
+]
 ```
