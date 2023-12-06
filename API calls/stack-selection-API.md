@@ -14,7 +14,7 @@
         "name": "string",
         "iconPath": "string"
       }, 
-    "topics": 
+    "topic": 
       {
           "name": "string",
           "iconPath": "string"
@@ -35,7 +35,7 @@
         "name": "string",
         "iconPath": "string"
       }, 
-    "topics": 
+    "topic": 
       {
           "name": "string",
           "iconPath": "string"
@@ -59,7 +59,7 @@
         "name": "string",
         "iconPath": "string"
       }, 
-    "topics": 
+    "topic": 
       {
           "name": "string",
           "iconPath": "string"
