@@ -13,20 +13,18 @@ get a current list of technologies and roles/difficulty levels
 
 ```JSON
 {
-  {
-    "difficulty": [
-        {
+  "difficulty": [
+      {
+        "name": "string",
+        "iconPath": "string"
+      }
+  ],
+"topics": [
+      {
           "name": "string",
           "iconPath": "string"
-        }
-    ],
-    "topics": [
-        {
-            "name": "string",
-            "iconPath": "string"
-        }
-    ]
-  } 
+      }
+  ]
 }
 ```
 
