@@ -8,24 +8,22 @@
 **Receive:** status: 200
 
 ```JSON
-{
-    [
-        {
-            "question-id": "string",
-            "question-content": {
-                "text": "string",
-                "answers": [
-                    {
-                        "answer-content": {
-                            "text": "string"
-                        },
-                        "is-correct": "boolean"
-                    }
-                ]
-            }
+[
+    {
+        "question-id": "string",
+        "question-content": {
+            "text": "string",
+            "answers": [
+                {
+                    "answer-content": {
+                        "text": "string"
+                    },
+                    "is-correct": "boolean"
+                }
+            ]
         }
-    ]
-}
+    }
+]
 ```
 
 
