@@ -1,30 +1,43 @@
 # **/api/stackOptions**
+
 <!-- ! ADD ROUTE DESCRIPTION HERE -->
+
 get a current list of technologies and roles/difficulty levels
 
+### GET:
 
-
-### GET: 
-**Send:** 
+**Send:**
 /api/stackOptions/userid
 
 **Receive:** status: 200
+
 ```JSON
 {
-  [
-    {
-        "name": "string",
-        "icon-path": "string"
-    }
-  ]
+  {
+    "difficulty": [
+        {
+          "name": "string",
+          "iconPath": "string"
+        }
+    ],
+    "topics": [
+        {
+            "name": "string",
+            "iconPath": "string"
+        }
+    ]
+  } 
 }
 ```
 
-### POST: 
+### POST:
+
 unneeded
 
 ### PUT:
+
 unneeded
 
 ### DELETE:
+
 unneeded
