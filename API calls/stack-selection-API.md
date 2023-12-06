@@ -9,8 +9,19 @@
 ```JSON
 {
   [
-    "string"
-  ]
+    {
+      "difficulty": 
+        {
+          "name": "string",
+          "iconPath": "string"
+        }, 
+      "topics": 
+        {
+            "name": "string",
+            "iconPath": "string"
+        }
+    }
+  ] 
 }
 ```
 
