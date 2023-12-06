@@ -16,7 +16,12 @@
 {
   "userId": "string",
   "username": "string",
-  "stack-selection": ["string"],
+  "stack-selection": [
+    {
+      "topic": "string",
+      "difficulty": "string"
+    }
+  ],
   "is-guest": "boolean",
   "history": [
     {
