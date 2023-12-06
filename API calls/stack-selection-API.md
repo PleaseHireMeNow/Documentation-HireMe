@@ -7,22 +7,20 @@
 
 **Receive:** status: 200
 ```JSON
-{
-  [
-    {
-      "difficulty": 
-        {
+[
+  {
+    "difficulty": 
+      {
+        "name": "string",
+        "iconPath": "string"
+      }, 
+    "topics": 
+      {
           "name": "string",
           "iconPath": "string"
-        }, 
-      "topics": 
-        {
-            "name": "string",
-            "iconPath": "string"
-        }
-    }
-  ] 
-}
+      }
+  }
+] 
 ```
 
 ### POST: 
