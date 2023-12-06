@@ -28,11 +28,20 @@
 **Send:** 
 /api/stackSelection/userid
 ```JSON
-{
-    [
-        "string"
-    ]
-}
+[
+  {
+    "difficulty": 
+      {
+        "name": "string",
+        "iconPath": "string"
+      }, 
+    "topics": 
+      {
+          "name": "string",
+          "iconPath": "string"
+      }
+  }
+]
 ```
 
 **Receive:** status: 200
@@ -43,11 +52,20 @@
 **Send:** 
 /api/stackSelection/userid
 ```JSON
-{
-    [
-        "string"
-    ]
-}
+[
+  {
+    "difficulty": 
+      {
+        "name": "string",
+        "iconPath": "string"
+      }, 
+    "topics": 
+      {
+          "name": "string",
+          "iconPath": "string"
+      }
+  }
+]
 ```
 
 **Receive:** status: 200
