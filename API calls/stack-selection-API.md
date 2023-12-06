@@ -7,22 +7,20 @@
 
 **Receive:** status: 200
 ```JSON
-{
-  [
-    {
-      "difficulty": 
-        {
+[
+  {
+    "difficulty": 
+      {
+        "name": "string",
+        "iconPath": "string"
+      }, 
+    "topic": 
+      {
           "name": "string",
           "iconPath": "string"
-        }, 
-      "topics": 
-        {
-            "name": "string",
-            "iconPath": "string"
-        }
-    }
-  ] 
-}
+      }
+  }
+] 
 ```
 
 ### POST: 
@@ -30,11 +28,20 @@
 **Send:** 
 /api/stackSelection/userid
 ```JSON
-{
-    [
-        "string"
-    ]
-}
+[
+  {
+    "difficulty": 
+      {
+        "name": "string",
+        "iconPath": "string"
+      }, 
+    "topic": 
+      {
+          "name": "string",
+          "iconPath": "string"
+      }
+  }
+]
 ```
 
 **Receive:** status: 200
@@ -45,11 +52,20 @@
 **Send:** 
 /api/stackSelection/userid
 ```JSON
-{
-    [
-        "string"
-    ]
-}
+[
+  {
+    "difficulty": 
+      {
+        "name": "string",
+        "iconPath": "string"
+      }, 
+    "topic": 
+      {
+          "name": "string",
+          "iconPath": "string"
+      }
+  }
+]
 ```
 
 **Receive:** status: 200

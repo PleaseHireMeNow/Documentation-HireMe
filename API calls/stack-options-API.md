@@ -19,7 +19,7 @@ get a current list of technologies and roles/difficulty levels
         "iconPath": "string"
       }
   ],
-"topics": [
+  "topics": [
       {
           "name": "string",
           "iconPath": "string"
