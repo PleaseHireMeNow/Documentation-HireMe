@@ -16,7 +16,7 @@
 {
   "userId": "string",
   "username": "string",
-  "stack-selection": [
+  "topic-selection": [
     {
       "topic": "string",
       "difficulty": "string"

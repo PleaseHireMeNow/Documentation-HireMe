@@ -1,9 +1,9 @@
-# **/api/stackSelection**
+# **/api/topicSelection**
 <!-- ! ADD ROUTE DESCRIPTION HERE -->
 
 ### GET: 
 **Send:** 
-/api/stackSelection/userid
+/api/topicSelection/userid
 
 **Receive:** status: 200
 ```JSON
@@ -26,7 +26,7 @@
 ### POST: 
 
 **Send:** 
-/api/stackSelection/userid
+/api/topicSelection/userid
 ```JSON
 [
   {
@@ -50,7 +50,7 @@
 ### PUT:
 
 **Send:** 
-/api/stackSelection/userid
+/api/topicSelection/userid
 ```JSON
 [
   {
@@ -74,7 +74,7 @@
 ### DELETE: 
 
 **Send:** 
-/api/stackSelection/userid
+/api/topicSelection/userid
 
 
 **Receive:** status: 200
