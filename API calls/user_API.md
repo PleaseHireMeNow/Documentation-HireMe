@@ -14,7 +14,7 @@
 **Receive:** status: 200
 ```JSON
 {
-  "userId": "string",
+  "user_id": "string",
   "username": "string",
   "topic_selection": [
     {

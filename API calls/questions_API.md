@@ -3,7 +3,7 @@
 
 ### GET: 
 **Send:** 
-/api/questions/userid
+/api/questions/user_id
 
 **Receive:** status: 200
 

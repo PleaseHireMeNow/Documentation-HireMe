@@ -7,7 +7,7 @@ get a current list of technologies and roles/difficulty levels
 ### GET:
 
 **Send:**
-/api/topicOptions/userid
+/api/topicOptions/user_id
 
 **Receive:** status: 200
 

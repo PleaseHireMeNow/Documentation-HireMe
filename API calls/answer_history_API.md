@@ -5,7 +5,7 @@
 ### GET:
 
 **Send:**
-/api/answerHistory/userid
+/api/answer_history/user_id
 
 **Receive:** status: 200
 
@@ -31,7 +31,7 @@
 ### POST:
 
 **Send:**
-/api/answerHistory/userid
+/api/answer_history/user_id
 
 ```JSON
 {
@@ -59,7 +59,7 @@
 ### DELETE:
 
 **Send:**
-/api/answerHistory/userid/question_id
+/api/answer_history/user_id/question_id
 
 **Receive:** status: 200
 

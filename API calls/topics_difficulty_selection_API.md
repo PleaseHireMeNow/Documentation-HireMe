@@ -3,7 +3,7 @@
 
 ### GET: 
 **Send:** 
-/api/topicSelection/userid
+/api/topic_selection/user_id
 
 **Receive:** status: 200
 ```JSON
@@ -26,7 +26,7 @@
 ### POST: 
 
 **Send:** 
-/api/topicSelection/userid
+/api/topic_selection/user_id
 ```JSON
 [
   {
@@ -50,7 +50,7 @@
 ### PUT:
 
 **Send:** 
-/api/topicSelection/userid
+/api/topic_selection/user_id
 ```JSON
 [
   {
@@ -74,7 +74,7 @@
 ### DELETE: 
 
 **Send:** 
-/api/topicSelection/userid
+/api/topic_selection/user_id
 
 
 **Receive:** status: 200
