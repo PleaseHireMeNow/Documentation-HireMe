@@ -12,15 +12,15 @@
 ```JSON
 [
   {
-    "question-id": "string",
-    "question-content": {
+    "question_id": "string",
+    "question_content": {
       "text": "string",
       "answers": [
         {
-          "answer-content": {
+          "answer_content": {
             "text": "string"
           },
-          "is-correct": "boolean"
+          "is_correct": "boolean"
         }
       ]
     }
@@ -35,15 +35,15 @@
 
 ```JSON
 {
-  "question-id": "string",
-  "question-content": {
+  "question_id": "string",
+  "question_content": {
     "text": "string",
     "answers": [
       {
-        "answer-content": {
+        "answer_content": {
           "text": "string"
         },
-        "is-correct": "boolean"
+        "is_correct": "boolean"
       }
     ]
   },
@@ -59,22 +59,22 @@
 ### DELETE:
 
 **Send:**
-/api/answerHistory/userid/question-id
+/api/answerHistory/userid/question_id
 
 **Receive:** status: 200
 
 ```JSON
 [
   {
-    "question-id": "string",
-    "question-content": {
+    "question_id": "string",
+    "question_content": {
       "text": "string",
       "answers": [
         {
-          "answer-content": {
+          "answer_content": {
             "text": "string"
           },
-          "is-correct": "boolean"
+          "is_correct": "boolean"
         }
       ]
     }

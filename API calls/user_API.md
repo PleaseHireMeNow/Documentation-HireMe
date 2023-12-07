@@ -7,7 +7,7 @@
 **Send:** 
 ```JSON
 {
- "user-token": "string"
+ "user_token": "string"
 }
 ```
 
@@ -16,24 +16,24 @@
 {
   "userId": "string",
   "username": "string",
-  "topic-selection": [
+  "topic_selection": [
     {
       "topic": "string",
       "difficulty": "string"
     }
   ],
-  "is-guest": "boolean",
+  "is_guest": "boolean",
   "history": [
     {
-      "question-id": "string",
-      "question-content": {
+      "question_id": "string",
+      "question_content": {
         "prompt": "string",
         "responses": [
           {
-            "response-content": {
+            "response_content": {
               "text": "string"
             },
-            "is-correct": "boolean"
+            "is_correct": "boolean"
           }
         ]
       }
@@ -41,22 +41,22 @@
   ],
   "userAnswer": [
     {
-      "question-id": "string",
-      "question-content": {
+      "question_id": "string",
+      "question_content": {
         "prompt": "string",
         "responses": [
           {
-            "response-content": {
+            "response_content": {
               "text": "string"
             },
-            "is-correct": "boolean"
+            "is_correct": "boolean"
           }
         ]
       },
-      "response-content": {
+      "response_content": {
         "text": "string"
       },
-      "is-correct": "boolean"
+      "is_correct": "boolean"
     }
   ]
 }

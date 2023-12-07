@@ -10,15 +10,15 @@
 ```JSON
 [
     {
-        "question-id": "string",
-        "question-content": {
+        "question_id": "string",
+        "question_content": {
             "text": "string",
             "answers": [
                 {
-                    "answer-content": {
+                    "answer_content": {
                         "text": "string"
                     },
-                    "is-correct": "boolean"
+                    "is_correct": "boolean"
                 }
             ]
         }
