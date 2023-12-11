@@ -1,4 +1,4 @@
-# **/api/topicOptions**
+# **/api/topic_options**
 
 <!-- ! ADD ROUTE DESCRIPTION HERE -->
 
@@ -7,7 +7,7 @@ get a current list of technologies and roles/difficulty levels
 ### GET:
 
 **Send:**
-/api/topicOptions/user_id
+/api/topic_options/user_id
 
 **Receive:** status: 200
 
