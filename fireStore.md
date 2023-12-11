@@ -18,7 +18,7 @@ Follow this guide untill to install and login to firebase
      FIREBASE_APP_ID=
      FIREBASE_MEASUREMENTID=
     ```
- 2. Go to the firebase console for our project
+ 2. Go to the firebase [console](https://console.firebase.google.com/u/0/) for our project
  3. Go to project settings
  4. Scroll down to Your apps
  5. Copy vairable values from the firebasConfig object into the .env file
