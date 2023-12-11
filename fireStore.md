@@ -26,4 +26,7 @@ Follow this guide untill to install and login to firebase
 
 
 ### Start Enviorment Locally
+
+Run the following command to start the emulation suit.
+
 ` firebase emulators:start `
