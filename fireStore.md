@@ -31,7 +31,7 @@ For Mac:
 ### Start Enviorment Locally
 
 Run the following command to start the emulation suit.
-
+` npm i `
 ` curl -sL https://firebase.tools | bash `
 ` firebase login `
 ` firebase emulators:start `
