@@ -4,11 +4,14 @@
 ## Firebase CLI Install
 
 Follow this guide untill to install and login to firebase
-[Firebase Install Guide](https://firebase.google.com/docs/cli?authuser=0#setup_update_cli)
+[Firebase Install Guide](https://firebase.google.com/doxcs/cli?authuser=0#setup_update_cli)
+
+For Mac:
+
 
 ## Setting Up Enviorment Variables
 
- 1. Add these vairable names to your .env file
+ 1. Add these variable names to your .env file
     ```
      FIREBASE_API_KEY=
      FIREBASE_AUTH_DOMAIN=
@@ -29,4 +32,6 @@ Follow this guide untill to install and login to firebase
 
 Run the following command to start the emulation suit.
 
+` curl -sL https://firebase.tools | bash `
+` firebase login `
 ` firebase emulators:start `
