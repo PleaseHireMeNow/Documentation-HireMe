@@ -24,7 +24,7 @@ For Mac:
  2. Go to the firebase [console](https://console.firebase.google.com/u/0/) for our project
  3. Go to project settings
  4. Scroll down to Your apps
- 5. Copy vairable values from the firebasConfig object into the .env file
+ 5. Copy variable values from the firebaseConfig object into the .env file
 
 
 
