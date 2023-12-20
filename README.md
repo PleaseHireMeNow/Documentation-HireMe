@@ -6,7 +6,7 @@ here's the place to put documentation for the project!
 ### Mobile
 
 - Refer to our [guide](/Mobile/running_locally.md) to run locally.
-- (User flow)[Mobile/user_flow.md] in progress (incomplete)
+- [User flow](Mobile/user_flow.md) in progress (incomplete)
 
 ### Web
 
