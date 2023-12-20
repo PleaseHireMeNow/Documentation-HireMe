@@ -2,7 +2,13 @@
 here's the place to put documentation for the project!
 
 ## Frontend 
-- ?????
+
+### Mobile
+
+- Refer to our [guide](/Mobile/running_locally.md) to run locally.
+- (User flow)[Mobile/user_flow.md] in progress (incomplete)
+
+### Web
 
   
 ## Backend

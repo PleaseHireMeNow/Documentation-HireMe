@@ -35,4 +35,4 @@ git clone git@github.com:PleaseHireMeNow/Mobile-HireMe.git && cd Mobile-HireMe &
 - Pick the desired simulators from the menu, `(i)` for iPhone `(a)` for Android.
 - **TIP**: for iPhone, capital `I` will open a secondary menu to pick from a list of different ios versions and devices.
 
-Please refer to README for folder structure and more project information.
+Please refer to [README](https://github.com/PleaseHireMeNow/Mobile-HireMe/blob/main/README.md) for folder structure and more project information.
