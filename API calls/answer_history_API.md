@@ -47,8 +47,7 @@
       }
     ]
   },
-  "usefulness": "number",
-  "accuracy": "number"
+  "rating": "number",
 }
 ```
 

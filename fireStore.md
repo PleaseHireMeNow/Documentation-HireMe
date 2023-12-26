@@ -32,6 +32,6 @@ For Mac:
 
 Run the following command to start the emulation suit.
 ` npm i `
-` curl -sL https://firebase.tools | bash ` //use your local machine password
+` curl -sL https://firebase.tools | bash ` use your local machine password
 ` firebase login `
 ` firebase emulators:start `
