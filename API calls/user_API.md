@@ -14,58 +14,90 @@
 **Receive:** status: 200
 ```JSON
 {
-  "user_id": "string",
-  "username": "string",
-  "topic_selection": [
-    {
-      "topic": {
-        "name": "string",
-        "iconPath": "string"
-      },
-      "difficulty": {
-        "name": "string",
-        "iconPath": "string"
+  "user": {
+
+    "user_id": "string",
+    "username": "string",
+    "topic_selection": [
+      {
+        "topic": {
+          "name": "string",
+          "iconPath": "string"
+        },
+        "difficulty": {
+          "name": "string",
+          "iconPath": "string"
+        }
       }
-    }
-  ],
-  "is_guest": "boolean",
-  "history": [
-    {
-      "question_id": "string",
-      "question_content": {
-        "prompt": "string",
-        "responses": [
-          {
-            "response_content": {
-              "text": "string"
+    ],
+    "is_guest": "boolean",
+  },
+  "session_history": [
+
+        {
+            "question_content": {
+                "text": "string",
+                "answers": [
+                    {
+                        "is_correct": true,
+                        "answer_content": {
+                            "text": "string"
+                        }
+                    },
+                ]
             },
-            "is_correct": "boolean"
-          }
-        ]
+            "answered_correctly": "number",
+            "answered_incorrectly": "number",
+            "question_id": "string",
+            "responses": [
+                {
+                    "timestamp": {
+                        "seconds": "number",
+                        "nanoseconds": "number"
+                    },
+                    "response": {
+                        "answer": {
+                            "is_correct": "boolean",
+                            "answer_content": {
+                                "text": "string"
+                            }
+                        }
+                    }
+                }
+            ]
+        }
+  ],
+  "current_session": {
+    "current_question": "number",
+    "answered_correctly": "number",
+    "timestamp": "Timestamp",
+    "questions": [
+      {
+        "question": {
+          "question_id": "string",
+          "question_content": {
+            "text": "string",
+            "answers": [
+              {
+                "answer_content": {
+                "text": "string"
+              },
+                "is_correct": "boolean"
+              }
+            ]
+          },
+          "rating": "number"
+        },
+        "answer": {
+          "answer_content": {
+            "text": "string"
+          },
+          "is_correct": "boolean"
+        }
       }
-    }
-  ],
-  "userAnswer": [
-    {
-      "question_id": "string",
-      "question_content": {
-        "prompt": "string",
-        "responses": [
-          {
-            "response_content": {
-              "text": "string"
-            },
-            "is_correct": "boolean"
-          }
-        ]
-      },
-      "response_content": {
-        "text": "string"
-      },
-      "is_correct": "boolean"
-    }
-  ]
-}
+    ],
+  }
+  }
 ```
 ---
 
