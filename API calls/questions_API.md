@@ -1,16 +1,18 @@
 # **/api/questions**
+
 <!-- ! ADD ROUTE DESCRIPTION HERE -->
 
-### GET: 
-**Send:** 
+### GET:
+
+**Send:**
 /api/questions/user_id/new
 
 **Receive:** status: 200
 
 ```JSON
-[
-  {
-    "question": {
+{
+  "sessionQuestionList": [
+    {
       "question_id": "string",
       "question_content": {
           "text": "string",
@@ -23,21 +25,22 @@
                 }
             ]
         }
-    },
-    "is_complete": "boolean"
     }
-]
+  ],
+  "needMoreQuestionsFlag": "boolean",
+  "current_question": "number"
+}
 ```
 
-**Send:** 
+**Send:**
 /api/questions/user_id/prev
 
 **Receive:** status: 200
 
 ```JSON
-[
-  {
-    "question": {
+{
+  "questions": [
+    {
       "question_id": "string",
       "question_content": {
           "text": "string",
@@ -49,18 +52,22 @@
                     "is_correct": "boolean"
                 }
             ]
-        }
-    },
-    "is_complete": "boolean"
+      },
     }
-]
+  ],
+  "current_question": "number",
+  "timestamp": "Timestamp"
+}
 ```
 
-### POST: 
+### POST:
+
 unneeded
 
 ### PUT:
+
 unneeded
 
 ### DELETE:
+
 unneeded
