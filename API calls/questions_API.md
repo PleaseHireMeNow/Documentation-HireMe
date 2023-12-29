@@ -27,7 +27,6 @@
         }
     }
   ],
-  "needMoreQuestionsFlag": "boolean",
   "current_question": "number"
 }
 ```
