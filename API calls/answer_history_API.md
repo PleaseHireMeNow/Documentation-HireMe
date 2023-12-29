@@ -2,8 +2,7 @@
 
 <!-- ! ADD ROUTE DESCRIPTION HERE -->
 
-### GET:
-not needed (user route gets answer history)
+### GET: not needed (user route gets answer history)
 
 ### POST:
 
@@ -32,28 +31,4 @@ not needed (user route gets answer history)
 
 ### PUT: not needed
 
-### DELETE:
-
-**Send:**
-/api/answer_history/user_id/question_id
-
-**Receive:** status: 200
-
-```JSON
-[
-  {
-    "question_id": "string",
-    "question_content": {
-      "text": "string",
-      "answers": [
-        {
-          "answer_content": {
-            "text": "string"
-          },
-          "is_correct": "boolean"
-        }
-      ]
-    }
-  }
-]
-```
+### DELETE: not needed
