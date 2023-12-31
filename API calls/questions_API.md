@@ -11,7 +11,7 @@
 
 ```JSON
 {
-  "sessionQuestionList": [
+  "questions": [
     {
       "question_id": "string",
       "question_content": {

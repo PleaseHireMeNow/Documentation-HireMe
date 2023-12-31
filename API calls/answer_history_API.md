@@ -11,6 +11,7 @@
 
 ```JSON
 {
+  "question": {
   "question_id": "string",
   "question_content": {
     "text": "string",
@@ -24,6 +25,10 @@
     ]
   },
   "rating": "number",
+},
+"answer": {
+
+}
 }
 ```
 
