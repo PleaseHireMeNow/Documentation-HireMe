@@ -11,23 +11,45 @@
 
 ```JSON
 {
+  "session_id": "string",
+  "current_question": "number",
+  "answered_correctly": "number",
+  "timestamp": "Timestamp",
+  "topic_selection": {
+    "topic": {
+      "name": "string",
+      "iconPath": "string"
+    },
+    "difficulty": {
+      "name": "string",
+      "iconPath": "string"
+    }
+  },
   "questions": [
     {
-      "question_id": "string",
-      "question_content": {
-          "text": "string",
-          "answers": [
-                  {
-                  "answer_content": {
-                        "text": "string"
-                    },
-                    "is_correct": "boolean"
-                }
-            ]
-        }
+      "question":  {
+        "question_id": "string",
+        "question_content": {
+            "text": "string",
+            "answers": [
+                    {
+                    "answer_content": {
+                          "text": "string"
+                      },
+                      "is_correct": "boolean"
+                  }
+              ]
+          },
+        "rating": "number",
+      },
+      "answer": {
+        "answer_content": {
+          "text": "string";
+        },
+        "is_correct": "boolean"
+      }
     }
-  ],
-  "current_question": "number"
+  ]
 }
 ```
 
@@ -38,24 +60,45 @@
 
 ```JSON
 {
+  "session_id": "string",
+  "current_question": "number",
+  "answered_correctly": "number",
+  "timestamp": "Timestamp",
+  "topic_selection": {
+    "topic": {
+      "name": "string",
+      "iconPath": "string"
+    },
+    "difficulty": {
+      "name": "string",
+      "iconPath": "string"
+    }
+  },
   "questions": [
     {
-      "question_id": "string",
-      "question_content": {
-          "text": "string",
-          "answers": [
-                  {
-                  "answer_content": {
-                        "text": "string"
-                    },
-                    "is_correct": "boolean"
-                }
-            ]
+      "question":  {
+        "question_id": "string",
+        "question_content": {
+            "text": "string",
+            "answers": [
+                    {
+                    "answer_content": {
+                          "text": "string"
+                      },
+                      "is_correct": "boolean"
+                  }
+              ]
+          },
+        "rating": "number",
       },
+      "answer": {
+        "answer_content": {
+          "text": "string";
+        },
+        "is_correct": "boolean"
+      }
     }
-  ],
-  "current_question": "number",
-  "timestamp": "Timestamp"
+  ]
 }
 ```
 
@@ -65,7 +108,54 @@ unneeded
 
 ### PUT:
 
-unneeded
+**Send:**
+/api/questions/user_id/session_id
+
+**Receive:** status: 200
+
+```JSON
+{
+  "session_id": "string",
+  "current_question": "number",
+  "answered_correctly": "number",
+  "timestamp": "Timestamp",
+  "topic_selection": {
+    "topic": {
+      "name": "string",
+      "iconPath": "string"
+    },
+    "difficulty": {
+      "name": "string",
+      "iconPath": "string"
+    }
+  },
+  "questions": [
+    {
+      "question":  {
+        "question_id": "string",
+        "question_content": {
+            "text": "string",
+            "answers": [
+                    {
+                    "answer_content": {
+                          "text": "string"
+                      },
+                      "is_correct": "boolean"
+                  }
+              ]
+          },
+        "rating": "number",
+      },
+      "answer": {
+        "answer_content": {
+          "text": "string";
+        },
+        "is_correct": "boolean"
+      }
+    }
+  ]
+}
+```
 
 ### DELETE:
 

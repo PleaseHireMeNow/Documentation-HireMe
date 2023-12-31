@@ -12,23 +12,27 @@
 ```JSON
 {
   "question": {
-  "question_id": "string",
-  "question_content": {
-    "text": "string",
-    "answers": [
-      {
-        "answer_content": {
-          "text": "string"
-        },
-        "is_correct": "boolean"
-      }
-    ]
+    "question_id": "string",
+    "question_content": {
+      "text": "string",
+      "answers": [
+        {
+          "answer_content": {
+            "text": "string"
+          },
+          "is_correct": "boolean"
+        }
+      ]
+    },
+    "rating": "number",
   },
-  "rating": "number",
-},
-"answer": {
 
-}
+  "answer": {
+    "answer_content": {
+      "text": "string"
+    },
+    "is_correct": "boolean"
+  }
 }
 ```
 
