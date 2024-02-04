@@ -18,6 +18,10 @@
 
     "user_id": "string",
     "username": "string",
+    "idToken": "string",
+    "id": "string",
+    "photoUrl": "string",
+    "email": "string",
     "topic_selection": [
       {
         "topic": {
