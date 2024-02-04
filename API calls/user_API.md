@@ -7,7 +7,8 @@
 **Send:** 
 ```JSON
 {
- "idToken": "string"
+ "idToken": "string",
+ "redirectUri": "string"
 }
 ```
 
