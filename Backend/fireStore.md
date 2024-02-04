@@ -21,6 +21,7 @@ For Mac:
      FIREBASE_APP_ID=
      FIREBASE_MEASUREMENTID=
     ```
+    **Message backend team for values as they are not shared publicly
  2. Go to the firebase [console](https://console.firebase.google.com/u/0/) for our project
  3. Go to project settings
  4. Scroll down to Your apps
