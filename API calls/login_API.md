@@ -1,6 +1,6 @@
 # **/api/login**
 
-<!-- ! ADD ROUTE DESCRIPTION HERE -->
+Sends token to backend for user validation.
 
 ### GET:
 
