@@ -7,7 +7,7 @@
 **Send:** 
 ```JSON
 {
- "user_token": "string"
+ "idToken": "string"
 }
 ```
 
